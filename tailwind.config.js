@@ -1,13 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,ts,jsx,tsx}", // لو عندك مشروع Next.js داخل src
+    "./src/**/*.{js,ts,jsx,tsx}", 
   ],
   theme: {
     extend: {},
   },
   plugins: [],
   future: {
-    unstable_lightningcss: false, // تعطيل استخدام lightningcss
+    unstable_lightningcss: false, 
   },
 };
